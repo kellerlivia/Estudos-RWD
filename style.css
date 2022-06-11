@@ -1,0 +1,35 @@
+
+.cabecalho{
+    display: flex;
+    background-color: rgba(217, 51, 59, 0.742);
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    column-gap: normal;
+    gap: 2em;
+}
+
+.menu > a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem 0;   
+}
+
+.menu > a:hover{
+    background-color: rgb(233, 57, 81);
+}
+
+h1{
+    background-color: black;
+    padding: 2rem 1rem;
+}
+
+.cadastro{
+    display: flex;
+    padding: 1.5rem 1rem;
+}
